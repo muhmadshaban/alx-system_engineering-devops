@@ -1,6 +1,2 @@
 #!bin/bash
-file_name='*\\\'"Best School"'\\*$?*****:)'
-file_content="Best School\n"
-echo -e "$file_content" > "$file_name"
-echo "File '$file_name' with content 'Best School' and a new line has been created."
-bash create_file.sh
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
